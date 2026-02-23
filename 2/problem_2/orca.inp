@@ -1,0 +1,17 @@
+# The first line is called the simple input and is where
+# you can put many of the ORCA input arguments
+! B3LYP def2-TZVP Opt Freq NormalPrint xyzfile 
+
+# This line tells ORCA to parallelize over 4 CPU cores
+%pal nprocs 4 end 
+
+# Here we specify the charge, spin, and coordinates
+# Example coordinates are shown for an H2 molecule
+*xyz 0 1
+N 0.12299000   -1.62281000    0.00000000
+N -0.55232000    0.46173000    0.00000000
+N -0.12299000    1.62281000    0.00000000
+N -0.12299000   -2.72347000    0.00000000 
+N 0.12299000    2.72347000    0.00000000 
+N 0.55232000   -0.46173000    0.00000000
+*
