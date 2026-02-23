@@ -90,7 +90,7 @@ networkx==3.6.1
 nglview==4.0
 notebook==7.5.3
 notebook_shim==0.2.4
-numpy==2.4.1
+numpy==2.2
 orjson==3.11.5
 packaging==25.0
 palettable==3.3.3
