@@ -7,8 +7,7 @@
 
 # Here we specify the charge, spin, and coordinates
 # Example coordinates are shown for an H2 molecule
-*xyz 0 2
-N           0.00000000000000      0.00000000000000      0.00000000000000
-N           1.18309639330900      0.00000000000000      0.00000000000000
-N           2.36619342976983      0.00016493794136      0.00000000000000
+*xyz 0 1
+N 0.0 0.0 0.0
+N 1.103764945364 0.0 0.0
 *
